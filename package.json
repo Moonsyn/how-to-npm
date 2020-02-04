@@ -1,6 +1,6 @@
 {
   "name": "how-to-npm",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "get started npm",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,13 @@
   "dependencies": {
     "@linclark/pkg": "^1.0.2"
   },
-  "repository": "https://github.com/Moonsyn/how-to-npm.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moonsyn/how-to-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Moonsyn/how-to-npm/issues"
+  },
+  "homepage": "https://github.com/Moonsyn/how-to-npm/README.md",
+  "devDependencies": {}
 }
