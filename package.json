@@ -4,8 +4,12 @@
   "description": "get started npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "liam_moon",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+  "repository": "https://github.com/Moonsyn/how-to-npm.git"
 }
